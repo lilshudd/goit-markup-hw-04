@@ -143,6 +143,7 @@ COMPONENT STYLES
 
 .header-first-item {
     position: relative;
+    color: #404bbf;
 }
 
 .header-first-item::after {
@@ -566,6 +567,12 @@ COMPONENT STYLES
 .syniu-dva {
     display: inline-block;
     color: var(--white-cl-dark);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+
 }
 
 /* ------------Portfolio------------- */
