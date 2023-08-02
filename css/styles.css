@@ -143,7 +143,6 @@ COMPONENT STYLES
 
 .header-first-item {
     position: relative;
-    color: #404bbf;
 }
 
 .header-first-item::after {
@@ -154,8 +153,6 @@ COMPONENT STYLES
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .header-first-soc {
@@ -167,7 +164,8 @@ COMPONENT STYLES
 }
 
 .header-link {
-    color: var(--gray-cl);
+    /* color: var(--gray-cl); */
+    color: #404bbf;
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
@@ -192,6 +190,7 @@ COMPONENT STYLES
     /* 24/16 */
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:first-child {
@@ -203,6 +202,7 @@ COMPONENT STYLES
     /* 24/16 */
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-soc-link:first-child:hover {
@@ -439,14 +439,6 @@ COMPONENT STYLES
     gap: 24px;
 }
 
-/* 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-} */
-
 .social-item {
     width: 40px;
     height: 40px;
@@ -506,11 +498,40 @@ COMPONENT STYLES
     width: calc((100% - 120px) / 6);
     height: 88px;
     flex-shrink: 0;
-    border-radius: 4px;
-    border: 1px solid var(--lightslate, #8E8F99);
+    /* border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99); */
 }
 
-.cutomer-icon {}
+.cutomer-icon {
+    fill: currentColor;
+
+}
+
+.customer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
+.customer-link:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.customer-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.customer-link:first-child {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* ------------FOOTER------------- */
 .footer {
