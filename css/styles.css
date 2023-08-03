@@ -572,7 +572,11 @@ COMPONENT STYLES
 .footer-container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-logo-container {
     margin-right: 120px;
+
 }
 
 .footer-social {}
@@ -586,6 +590,8 @@ COMPONENT STYLES
     color: var(--white-cl);
     margin-bottom: 16px;
 }
+
+
 
 /* ------------MODAL------------- */
 
