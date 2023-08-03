@@ -654,12 +654,12 @@ COMPONENT STYLES
 }
 
 /* ------------Portfolio------------- */
-.second-menu-item {
+.snd-mnu-itm {
     position: relative;
     color: #404bbf;
 }
 
-.second-menu-item::after {
+.snd-mnu-itm::after {
     content: '';
     position: absolute;
     left: 0;
@@ -745,12 +745,14 @@ COMPONENT STYLES
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .sell-item-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .sell-subtitle {
@@ -791,13 +793,13 @@ COMPONENT STYLES
 }
 
 /* Треба перевірити */
-.sell-item-link:hover.sell-paragraph {
+/* .sell-item-link:hover.sell-paragraph {
     transform: translateY(0%);
 }
 
 .sell-item-link:focus.sell-paragraph {
     transform: translateY(0%);
-}
+} */
 
 .sell-container-two {
     position: relative;
