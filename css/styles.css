@@ -165,8 +165,7 @@ COMPONENT STYLES
 }
 
 .header-link {
-    /* color: var(--gray-cl); */
-    color: #404bbf;
+    color: var(--gray-cl);
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
@@ -687,6 +686,30 @@ COMPONENT STYLES
 .snd-mnu-itm {
     position: relative;
     color: #404bbf;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24/16 */
+    letter-spacing: 0.02em;
+}
+
+.snd-mnu-itm:first-child {
+    color: #404bbf;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24/16 */
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.snd-mnu-itm:first-child:hover {
+    color: var(--gray-cl);
+}
+
+.snd-mnu-itm:first-child:focus {
+    color: var(--gray-cl);
 }
 
 .snd-mnu-itm::after {
