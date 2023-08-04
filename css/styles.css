@@ -141,10 +141,6 @@ COMPONENT STYLES
     display: flex;
 }
 
-.header-first-soc {
-    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .syniu {
     color: var(--gray-cl);
 }
@@ -165,6 +161,7 @@ COMPONENT STYLES
     line-height: 150%;
     /* 24/16 */
     letter-spacing: 0.02em;
+    color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:first-child {
@@ -698,6 +695,7 @@ COMPONENT STYLES
 }
 
 .active-menu-link::after {
+    width: 100%;
     content: '';
     position: absolute;
     left: 0;
@@ -830,14 +828,13 @@ COMPONENT STYLES
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Треба перевірити */
-/* .sell-item-link:hover.sell-paragraph {
+.sell-item-link:hover .sell-paragraph {
     transform: translateY(0%);
 }
 
-.sell-item-link:focus.sell-paragraph {
+.sell-item-link:focus .sell-paragraph {
     transform: translateY(0%);
-} */
+}
 
 .sell-container-two {
     position: relative;
