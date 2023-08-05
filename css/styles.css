@@ -209,7 +209,7 @@ COMPONENT STYLES
 
 /* ------------HERO------------- */
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1440px;
@@ -482,13 +482,10 @@ COMPONENT STYLES
     width: calc((100% - 120px) / 6);
     height: 88px;
     flex-shrink: 0;
-    /* border-radius: 4px;
-    border: 1px solid var(--lightslate, #8E8F99); */
 }
 
 .cutomer-icon {
     fill: currentColor;
-
 }
 
 .customer-link {
